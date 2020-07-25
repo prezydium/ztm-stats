@@ -1,0 +1,96 @@
+{
+  "LastUpdateData": "2020-07-25 14:45:00",
+  "Vehicles": [
+    {
+      "DataGenerated": "2020-07-25 14:44:56",
+      "Line": "111",
+      "Route": "201",
+      "VehicleCode": "3050",
+      "VehicleService": "111-02",
+      "VehicleId": 145810,
+      "Speed": 40,
+      "Delay": 136,
+      "Lat": 54.359039306640625,
+      "Lon": 18.70067024230957,
+      "GPSQuality": 3
+    },
+    {
+      "DataGenerated": "2020-07-25 14:44:53",
+      "Line": "118",
+      "Route": "101",
+      "VehicleCode": "2682",
+      "VehicleService": "118-03",
+      "VehicleId": 145735,
+      "Speed": 10,
+      "Delay": 30,
+      "Lat": 54.32865905761719,
+      "Lon": 18.598859786987305,
+      "GPSQuality": 3
+    },
+    {
+      "DataGenerated": "2020-07-25 14:44:57",
+      "Line": "255",
+      "Route": "21",
+      "VehicleCode": "8401",
+      "VehicleService": "255-01",
+      "VehicleId": 145674,
+      "Speed": 0,
+      "Delay": 218,
+      "Lat": 54.311161041259766,
+      "Lon": 18.56574058532715,
+      "GPSQuality": 3
+    },
+    {
+      "DataGenerated": "2020-07-25 14:44:48",
+      "Line": "6",
+      "Route": "52",
+      "VehicleCode": "1061",
+      "VehicleService": "006-03",
+      "VehicleId": 145746,
+      "Speed": 25,
+      "Delay": 3644,
+      "Lat": 54.38690185546875,
+      "Lon": 18.58540916442871,
+      "GPSQuality": 3
+    },
+    {
+      "DataGenerated": "2020-07-25 14:44:57",
+      "Line": "113",
+      "Route": "42",
+      "VehicleCode": "8003",
+      "VehicleService": "113-04",
+      "VehicleId": 145661,
+      "Speed": 20,
+      "Delay": 112,
+      "Lat": 54.315059661865234,
+      "Lon": 18.591209411621094,
+      "GPSQuality": 3
+    },
+    {
+      "DataGenerated": "2020-07-25 14:44:54",
+      "Line": "112",
+      "Route": "61",
+      "VehicleCode": "2687",
+      "VehicleService": "112-03",
+      "VehicleId": 145740,
+      "Speed": 0,
+      "Delay": 473,
+      "Lat": 54.339229583740234,
+      "Lon": 18.894779205322266,
+      "GPSQuality": 3
+    },
+    {
+      "DataGenerated": "2020-07-25 14:44:57",
+      "Line": "607",
+      "Route": "11",
+      "VehicleCode": "8522",
+      "VehicleService": "607-01",
+      "VehicleId": 145658,
+      "Speed": 20,
+      "Delay": 278,
+      "Lat": 54.25912094116211,
+      "Lon": 18.62468910217285,
+      "GPSQuality": 3
+    }
+  ]
+}
