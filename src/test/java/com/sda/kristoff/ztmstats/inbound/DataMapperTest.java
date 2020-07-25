@@ -22,5 +22,4 @@ public class DataMapperTest {
         assertEquals("118", vehicles.get(1).getLine());
     }
 
-
 }
