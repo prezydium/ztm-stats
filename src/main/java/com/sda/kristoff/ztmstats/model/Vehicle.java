@@ -23,4 +23,13 @@ public class Vehicle {
     public Integer getDelay() {
         return delay;
     }
+
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "line='" + line + '\'' +
+                ", speed=" + speed +
+                ", delay=" + delay +
+                '}';
+    }
 }

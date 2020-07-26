@@ -9,6 +9,7 @@ public class App {
         System.out.println("Starting ZTM-STATS application");
         DataStorage dataStorage = new DataStorage();
         QueryThread queryThread = new QueryThread(dataStorage);
+        queryThread.setDaemon(true);
         UIThread uiThread = new UIThread(dataStorage);
 
         queryThread.start();
