@@ -12,14 +12,14 @@ public class ZtmData {
     private String updateTime;
 
     @JsonProperty("Vehicles")
-    private List<Vehicle> vehicles;
+    private List<VehicleDTO> vehicleDTOS;
 
     public String getUpdateTime() {
         return updateTime;
     }
 
-    public List<Vehicle> getVehicles() {
-        return vehicles;
+    public List<VehicleDTO> getVehicleDTOS() {
+        return vehicleDTOS;
     }
 
 }

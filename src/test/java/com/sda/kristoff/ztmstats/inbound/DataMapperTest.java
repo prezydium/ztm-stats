@@ -1,6 +1,6 @@
 package com.sda.kristoff.ztmstats.inbound;
 
-import com.sda.kristoff.ztmstats.model.Vehicle;
+import com.sda.kristoff.ztmstats.model.VehicleDTO;
 import com.sda.kristoff.ztmstats.model.ZtmData;
 import org.junit.Test;
 
@@ -20,10 +20,10 @@ public class DataMapperTest {
         String testJson = new String(resourceAsStream.readAllBytes(), Charset.defaultCharset());
         //when
         ZtmData ztmData = DataMapper.mapJsonToZtmData(testJson);
-        List<Vehicle> vehicles = ztmData.getVehicles();
+        List<VehicleDTO> vehicleDTOS = ztmData.getVehicleDTOS();
         //then
-        assertEquals(7, vehicles.size());
-        assertEquals("118", vehicles.get(1).getLine());
+        assertEquals(7, vehicleDTOS.size());
+        assertEquals("118", vehicleDTOS.get(1).getLine());
     }
 
 }
