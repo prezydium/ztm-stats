@@ -19,17 +19,16 @@ public class UIThread extends Thread {
 
     @Override
     public void run() {
-
-
         Scanner sc = new Scanner(System.in);
-        int chosenOption = sc.nextInt();
+        int chosenOption;
         do {
+            System.out.println("Please choose an option:");
+            System.out.println("1 - print all vehicles");
+            System.out.println("0 - quit");
+            chosenOption = sc.nextInt();
             if (chosenOption == 1) {
                 System.out.println(dataStorage.getVehicles());
             }
         } while (chosenOption != 0);
-
-
-        //do work
     }
 }
