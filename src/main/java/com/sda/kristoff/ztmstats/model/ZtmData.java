@@ -21,4 +21,5 @@ public class ZtmData {
     public List<Vehicle> getVehicles() {
         return vehicles;
     }
+
 }

@@ -4,6 +4,7 @@ import com.sda.kristoff.ztmstats.model.Vehicle;
 import com.sda.kristoff.ztmstats.model.ZtmData;
 
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
@@ -17,6 +18,7 @@ public class DataStorage {
     public void update(ZtmData ztmData) {
         updateTime = LocalDateTime.parse(ztmData.getUpdateTime(), DATE_TIME_FORMAT);
         vehicles = ztmData.getVehicles();
+        System.out.println("Updated storage at " + LocalTime.now());
     }
 
     public LocalDateTime getUpdateTime() {

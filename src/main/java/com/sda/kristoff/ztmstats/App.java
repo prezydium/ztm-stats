@@ -1,16 +1,18 @@
 package com.sda.kristoff.ztmstats;
 
-import com.sda.kristoff.ztmstats.inbound.DataProvider;
-import com.sda.kristoff.ztmstats.model.ZtmData;
+import com.sda.kristoff.ztmstats.core.DataStorage;
+import com.sda.kristoff.ztmstats.core.UIThread;
+import com.sda.kristoff.ztmstats.inbound.QueryThread;
 
-/**
- * Hello world!
- */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        DataProvider dataProvider = new DataProvider();
-        ZtmData ztmData = dataProvider.getZtmData();
-        System.out.println(ztmData);
+        System.out.println("Starting ZTM-STATS application");
+        DataStorage dataStorage = new DataStorage();
+        QueryThread queryThread = new QueryThread(dataStorage);
+        UIThread uiThread = new UIThread(dataStorage);
+
+        queryThread.start();
+        uiThread.start();
+
     }
 }
